@@ -1,2 +1,2 @@
 <h1 align="center"> AlphaFood </h1>
-![AlphaFood-Baner](https://github.com/natimmansilla/TPO-AlphaFood/assets/130791471/a472983f-4678-4c05-88e0-a8ca7778c7c0)
+![AlphaFood-Baner](https://github.com/natimmansilla/TPO-AlphaFood/assets/130791471/d1e387f0-ca2f-4ba7-93d9-b6149970501a)
