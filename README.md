@@ -7,7 +7,7 @@
 *[Índice](#índice)
 *[Descripción del proyecto](#descripción-del-proyecto)
 *[Tecnologías utilizadas](#tecnologías-utilizadas)
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
+*[Desarrolladores](#personas-desarrolladores)
 *[Conclusión](#conclusión)
 
 ## Descripción del Proyecto:
