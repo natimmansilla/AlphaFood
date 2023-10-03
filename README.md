@@ -7,7 +7,7 @@ https://github.com/natimmansilla/TPO-AlphaFood/blob/main/assets/img/Banner.png
 
 *[Índice](#índice)
 
-*[En este trabajo practico desarrollamos una pagina web completamente responsive de AlphaFood, una empresa ficticia dedicada a la elaboración de menús BARF 100% natural para perros.](#descripción-del-proyecto)
+*[Descripción.](#En este trabajo practico desarrollamos una pagina web completamente responsive de AlphaFood, una empresa ficticia dedicada a la elaboración de menús BARF 100% natural para perros)
 
 *[Estado del proyecto](#Estado-del-proyecto)
 
