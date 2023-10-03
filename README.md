@@ -1,1 +1,1 @@
-<em> # TPO-AlphaFood </em>
+<em> TPO-AlphaFood </em>
