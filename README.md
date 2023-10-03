@@ -1,10 +1,22 @@
 ![Esta es una imagen de ejemplo](https://github.com/natimmansilla/TPO-AlphaFood/blob/main/image%20add%20README.md/Banner2.png)
 
-Descripción del Proyecto:
+
+<h1>Descripción del Proyecto:</h1>
 
 Este proyecto se basa en la construccion de una página web resposive para la empresa ficticia AlphaFood, la que se dedica a la venta de menus BARF 100% natural para perros.
 
 La pagina esta pensada para proyectar un entorno saludable y natural para el usuario, mientras se concientiza sobre la alimentacion responsable en la tenencia de perros.
+
+**Índice**
+1. [Primer apartado](#id1)
+2. [Segundo apartado](#id2)
+<div id='id1' />
+## Primer apartado
+Texto del primer apartado
+<div id='id2' />
+## Segundo apartado
+Texto del segundo apartado
+
 
 La pagina tiene 7 secciones:
   1. Home: Donde abrá un carrussel de infografias publicitarias
