@@ -3,12 +3,12 @@
 # Trabajo Práctico - Frontend : HTML - CSS - JAVASCRIPT
 
 ## Descripción del Proyecto:
-Este proyecto se basa en la construccion de una página web resposive para la empresa ficticia AlphaFood, la que se dedica a la venta de menus BARF 100% natural para perros. La página esta pensada para proyectar un entorno saludable y natural para el usuario, mientras se concientiza sobre la alimentacion responsable en la tenencia de perros.
+Este proyecto se basa en la construcción de una página web resposive para la empresa ficticia AlphaFood, la que se dedica a la venta de menus BARF 100% natural para perros. La página esta pensada para proyectar un entorno saludable y natural para el usuario, mientras se concientiza sobre la alimentación responsable y natural en la tenencia de perros.
 
 La página tiene 7 secciones:
   1. Home: Donde abrá un carrussel de infografias publicitarias
   2. Info-Nutricional: Imagen de fondo e informacion respecto de los menus saludables en general
-  3. Menús: Seccion que exibirá los diferentes menús disponibles, son 6 en total
+  3. Menús: Sección que exibirá los diferentes menús disponibles, son 6 en total
      * Pavo y Sardinas
      * Pollo y Vaca
      * Conejo
