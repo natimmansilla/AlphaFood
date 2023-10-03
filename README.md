@@ -1,1 +1,1 @@
-<em> TPO-AlphaFood </em>
+<h1 align="center"> AlphaFood </h1>
