@@ -19,6 +19,22 @@ La página tiene 7 secciones:
   6. Contacto: Se incluirá un formulario de contacto con tecnologia Javascrip.
   7. Footer con un ancla: Logo de la empresa y copyright
 
+### Seccion 0: Home
+Descripcion ampliada
+
+### Seccion 1: Información Nutricional
+Descripción ampliada
+
+### Sección 2: Menús
+Descripción ampliada
+
+### Sección 3: Puntos de Venta
+Descripción ampliada
+
+### Sección 4: Contacto
+Descripción ampliada
+
+
 ## Tecnologias utilizadas: 
 1. HTML
 2. Css
