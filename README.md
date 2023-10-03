@@ -1,15 +1,13 @@
 <h1 align="center"> TPO: AlphaFood </h1>
 https://github.com/natimmansilla/TPO-AlphaFood/blob/main/assets/img/Banner.png
 
-##Índice
-
 *[Título e imagen de portada](#Título-e-imagen-de-portada)
 
 *[Insignias](#insignias)
 
 *[Índice](#índice)
 
-*[Descripción del proyecto](#descripción-del-proyecto)
+*[En este trabajo practico desarrollamos una pagina web completamente responsive de AlphaFood, una empresa ficticia dedicada a la elaboración de menús BARF 100% natural para perros.](#descripción-del-proyecto)
 
 *[Estado del proyecto](#Estado-del-proyecto)
 
@@ -22,7 +20,5 @@ https://github.com/natimmansilla/TPO-AlphaFood/blob/main/assets/img/Banner.png
 *[Personas Contribuyentes](#personas-contribuyentes)
 
 *[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-
-* [Licencia](#licencia)
 
 *[Conclusión](#conclusión)
