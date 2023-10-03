@@ -1,6 +1,6 @@
 ![Esta es una imagen de ejemplo](https://github.com/natimmansilla/TPO-AlphaFood/blob/main/image%20add%20README.md/Banner2.png)
 
-# Trabajo Practico - Frontend : HTML - CSS - JAVASCRIPT
+# Trabajo Práctico - Frontend : HTML - CSS - JAVASCRIPT
 
 ## Descripción del Proyecto:
 Este proyecto se basa en la construccion de una página web resposive para la empresa ficticia AlphaFood, la que se dedica a la venta de menus BARF 100% natural para perros. La página esta pensada para proyectar un entorno saludable y natural para el usuario, mientras se concientiza sobre la alimentacion responsable en la tenencia de perros.
