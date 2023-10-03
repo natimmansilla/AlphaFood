@@ -49,4 +49,4 @@ Descripción ampliada
 * Gomez, Franco - fe.gomez182@gmail.com
 * Mansilla, Natalia Micaela - natimmansilla.sistemas@gmail.com
 
-#### Trabajo Práctico Obligatorio Frontend - Aprendizaje a lo Largo de la Vida - Codo a Codo - Segundo Semestre - 2023 - Buenos Aires - Argentina.
+#### Trabajo Práctico Obligatorio Frontend - COMISION 23506 - Aprendizaje a lo Largo de la Vida - Codo a Codo - Segundo Semestre - 2023 - Buenos Aires - Argentina.
