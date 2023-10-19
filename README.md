@@ -6,19 +6,20 @@
 ## Descripción del Proyecto:
 Este proyecto se basa en la construcción de una página web resposive para la empresa ficticia AlphaFood, la que se dedica a la venta de menus BARF 100% natural para perros. La página esta pensada para proyectar un entorno saludable y natural para el usuario, mientras se concientiza sobre la alimentación responsable y natural en la tenencia de perros.
 
-La página tiene 7 secciones:
-  1. Home: Donde abrá un carrussel de infografias publicitarias
-  2. Info-Nutricional: Imagen de fondo e informacion respecto de los menus saludables en general
-  3. Menús: Sección que exibirá los diferentes menús disponibles, son 6 en total
-     * Pavo y Sardinas
-     * Pollo y Vaca
-     * Conejo
-     * Pavo
-     * Conejo y Caballo
+La página tiene 6 secciones:
+  1. Home: Imagen ilustrativa de un perro saludable por comer dieta barf. Inspira calidad, vitalidad y confianza.
+  2. Menús: Sección que exibirá los diferentes menús disponibles, son 7 en total
      * Cordero y Pavo en Trozos
-  5. Puntos de Venta: Aqui se va a enbeber una Api.. Es un mapa interactivo con código de google maps. Este indicará los puntos de venta en Argentina.
-  6. Contacto: Se incluirá un formulario de contacto con tecnologia Javascrip.
-  7. Footer con un ancla: Logo de la empresa y copyright
+     * Cordero y Pavo
+     * Pavo y Sardinas
+     * Pollo
+     * Pavo
+     * Pollo y Vaca
+     * Conejo y Caballo
+  3. Instrucciones: Imagenes ilustrativas del proceso de compra de un menu Barf.
+  4. Preguntas Frecuentes: 5 "cartas" encolumnadas con despliegue de movimiento, que le aclarará las posibles dudas al cliente. 
+  5. Contacto: Se incluirá un formulario de contacto con tecnologia Javascrip.
+  6. Footer con un ancla: Logo de la empresa y copyright.
 
 ### Seccion 0: Home
 Descripcion ampliada
