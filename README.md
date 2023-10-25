@@ -41,12 +41,17 @@ Sección que exibirá los diferentes menús disponibles, son 7 en total.
     * Conejo y Caballo
 En html se dividió 
 
-### Sección 3: Puntos de Venta
+### Sección 3: Instrucciones
 Descripción ampliada
 
-### Sección 4: Contacto
+### Sección 4:  Preguntas Frecuentes
 Descripción ampliada
 
+### Sección 5:Contacto
+Descripción ampliada
+
+### Sección 6: Footer
+Descripción ampliada
 
 ## Tecnologias utilizadas: 
 1. HTML
