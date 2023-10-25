@@ -23,8 +23,8 @@ Este proyecto se basa en la construcción de una página web resposive para la e
   6. Footer con un ancla: Logo de la empresa y copyright.
 
 ### Seccion 0: Navbar
-## Colaborador: Natalia 
-# Detalles técnicos:
+#### Colaborador: Natalia 
+##### Detalles técnicos:
 Consta de un navegador de secciones responsive para desktop, tablet y mobile. Tiene sus respectivas anclas a cada una de las secciones, desplieque de forma vertical encolumnado y centrado. Añade un efecto hover en color azul a los textos. Se utilizo Javascript para crear el menú de hamburguesa con una funcion "visible" para el despliegue y quitando ese atributo, el menu se contrae. Se añadio la imagen del logo de la empresa junto con el nav, que se alinearon de forma justify-content: space-between para abarcar la totalidad del espacio.Se utilizo 2 iconos de Bootstrap para hacer el menu, 3 lineas horizontales y un close X. Por último se añadió el cursor: pointer para hacer clickeable el menu.
 
 ### Seccion 1: Home
