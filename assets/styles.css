@@ -1,293 +1,185 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-
-html{
+    font-family: sans-serif;
     scroll-behavior: smooth;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-}
-
-h1{ font-size: 3.5em;}
-h2{ font-size: 2.7em;}
-h3{ font-size: 1.25em;}
-p{ font-size: 1.25em;}
-
-button{
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: aliceblue;
-    background-color: #82FD48;
-}
-
-button:hover{
-    background-color: #49a51f;
-}
-
-.container{
-    max-width: 1400px;
-    margin: auto;
-}
-
-
-.color-acento1{ color: #82FD48;}
-.color-acento2{ color: #538FFF;}
-
-
-header{
-    background: -webkit-linear-gradient(left, #82FD48, #538FFF);
-}
-
-header .container{
-    margin: 0;
-    padding: 20px 30px;
+/* HEADER */
+header {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #ececec;
 }
 
-header nav{
+.logo {
+    max-width: 10rem;
+}
+
+.nav-list {
+    list-style-type: none;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
+    gap: 1rem;
 }
 
-header a{
-    padding: 5px 12px;
+.nav-list li a {
     text-decoration: none;
-    font-weight: bold;
-    color: black;
+    color: #1c1c1c;
 }
 
-header a:hover{
-    color: #eff3ed;
-}
-
-header img{
-    height: 50px;
-    padding: 5px 12px;
-}
-
-#hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: rgb(245,245,245);
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),
-    url("img/hero.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left left;
-}
-
-
-#info-nutricional .container{
-    text-align: center;
-    padding: 200px 12px;
-}
-
-#info-nutricional{
-    text-align: center;
-}
-
-#menus {
-    background-color: rgb(0.5, 0.5, 0.5);
-    color: white;
-    text-align: center;
-}
-
-#menus .container{
-    padding: 30px 0px;
-}
-
-#menus h2{
-    margin-top: 0;
-}
-
-#menus p{
+.abrir-menu,
+.cerrar-menu {
     display: none;
 }
 
 
-#menus .carta{
-    background-position: center center;
-    background-size: cover;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 15px;
-}
+@media screen and (max-width: 725px) {
 
-.carta:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ),
-    url("img/S1-Pavo-Sardinas.webp");
-
-}
-
-.carta:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),
-    url("img/S1-Pollo-Vaca.webp");
-
-}
-
-.carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),
-    url("img/S1-Conejo-Caballo.webp");
-    
-}
-
-.carta:nth-child(4){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),
-    url("img/S1-Pavo.webp");
-    
-}
-
-.carta:nth-child(5){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),
-    url("img/S1-Pollo.webp");
-    
-}
-
-.carta:nth-child(6){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),
-    url("img/S1-Cordero-Pavo-Trozos.webp");
-}
-
-#Contacto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.753),
-        rgba(0,0,0,0.5)
-    ),
-    url("img/S1-Cordero-Pavo-Trozos.webp");
-    
-    color: white;
-    height: 60vh;
-}
-
-footer{
-    background: -webkit-linear-gradient(left, #82FD48, #538FFF);
-}
-
-footer p{
-    margin: 0;
-    padding: 15px;
-    color:black
-}
-
-footer .container{
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-@media (min-width: 720px){
-    header{
-        position: fixed;
-        width: 100%;
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
     }
 
-    header .container{
-        flex-direction: row;
-        justify-content: space-between;
+    .abrir-menu {
+        color: #1c1c1c;
     }
 
-    header nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;   
+    .cerrar-menu {
+        color: #ececec;
     }
 
-    #hero h1{
-        font-size: 5em;
-    }
-
-    #info-nutricional .container{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    #info-nutricional .texto{
-        width: 50%;
-        max-width: 600px;
-        text-align: initial;
-        padding-left: 30px;
-        padding: 0px 30px;
+    .nav {
+        opacity: 0;
+        visibility: hidden;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        z-index: 1;
     }
 
-    #info-nutricional h2{
-        margin-top: 0px;
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
     }
 
-    #info-nutricional .img{
-        background-image: url("img/info-nutricional.png");
-        background-size: cover;
-        background-position: center center;
-        height: 500px;
-        width: 600px;
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
     }
 
-    #menus .menus{
-        display: flex;
-        justify-content: center;
+    .nav-list li a {
+        color: #ecececec;
     }
-    #menus p{
-        display: block;
-        margin-bottom: 30px;
-    }
-    #menus h3{
-        margin-top: 0;
-    }
+}
 
-    #menus .carta{
-        padding: 15px;
-        box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5);
-    }
+/* MAIN */
+
+.foto {
+    width: 100%;
+    z-index: -1;
+}
+
+.carta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menues {
+    width: 75%;
+}
+
+
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+
+.item {
+    text-align: center;
+}
+
+.question {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+.active,
+.question:hover {
+    background-color: #ccc;
+}
+
+.question:after {
+    content: "v";
+    font-size: 32px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "ʌ";
+
+}
+
+.answer {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/* FOOTER */
+.pie {
+    text-align: center;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.iconos {
+    font-size: 40px;
+}
+
+.fa-whatsapp {
+    color: rgb(3, 233, 3);
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
 }
