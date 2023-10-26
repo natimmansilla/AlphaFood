@@ -54,12 +54,16 @@ Descripción ampliada
 Descripción ampliada
 
 ## Tecnologias utilizadas: 
-1. HTML
-2. Css
-3. Javascript
-4. Github - Control de versiones
-5. Bootstrap
-6. Photoshop
+1.  HTML
+2.  CSS
+3.  Javascript
+4.  Github y Git [control de versiones]
+5.  Bootstrap [formulario]
+6.  Photoshop
+7.  FontAwesome y Flaticon [iconos]
+8.  Google Fonts [fuentes]
+9.  Flexbox y Grid [maquetación]
+10. Solicitud a una API: Usada en la sección: 
 
 ## Integrantes:
 * Dominguez, Juan Cruz Elias - dominguez.juanelias@gmail.com
@@ -67,5 +71,3 @@ Descripción ampliada
 * Mansilla, Natalia Micaela - natimmansilla.sistemas@gmail.com
 
 #### Trabajo Práctico Obligatorio Frontend - COMISION 23506 - Aprendizaje a lo Largo de la Vida - Codo a Codo - Segundo Semestre - 2023 - Buenos Aires - Argentina.
-
-###### Editando con git 
