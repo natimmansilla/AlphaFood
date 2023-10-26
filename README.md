@@ -67,3 +67,5 @@ Descripción ampliada
 * Mansilla, Natalia Micaela - natimmansilla.sistemas@gmail.com
 
 #### Trabajo Práctico Obligatorio Frontend - COMISION 23506 - Aprendizaje a lo Largo de la Vida - Codo a Codo - Segundo Semestre - 2023 - Buenos Aires - Argentina.
+
+###### Editando con git 
