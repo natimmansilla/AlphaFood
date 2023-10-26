@@ -48,10 +48,18 @@ Descripción ampliada
 Descripción ampliada
 
 ### Sección 5:Contacto
-Descripción ampliada
+#### Colaborador: Franco 
+##### Detalles técnicos:
+El formulario de contacto se ha desarrollado con precisión utilizando el framework Bootstrap, en cumplimiento de los requisitos del TPO. Este formulario ofrece campos bien estructurados para que los usuarios ingresen su Nombre, Apellido, Correo Electrónico, Teléfono y un espacio dedicado para redactar sus mensajes. La funcionalidad del formulario se ha implementado de manera efectiva a través de formsubmit.co, lo que permite a los visitantes completar el formulario y enviar un correo electrónico directamente a la dirección de correo de la página.
+
+La elección de Bootstrap no solo asegura una presentación visual atractiva sino también la capacidad de ser completamente responsive. Esto significa que el formulario se adapta de manera óptima a diversos dispositivos y tamaños de pantalla, incluyendo computadoras de escritorio, tablets y dispositivos móviles. Este enfoque garantiza una experiencia de usuario uniforme y accesible en todos los dispositivos, fusionando así un diseño atractivo con una funcionalidad efectiva.
 
 ### Sección 6: Footer
-Descripción ampliada
+#### Colaborador: Franco 
+##### Detalles técnicos:
+El footer de la página web ha sido minuciosamente elaborado, destacándose por la atención al detalle en el diseño de los logos, cada uno enlazando directamente a las redes sociales de la marca. Se ha puesto un énfasis especial en la disposición de colores y la ubicación precisa de cada ícono, lo que contribuye a una estética armoniosa y atractiva en la parte inferior de la página. Además, se ha incluido un copyright de la marca, asegurando la protección de los derechos de propiedad intelectual.
+
+Una característica esencial del footer es su total capacidad de respuesta (responsive design), lo que significa que se adapta de manera óptima a una variedad de tamaños de pantalla y dispositivos, desde computadoras de escritorio hasta dispositivos móviles. Esto garantiza que los visitantes experimenten una navegación fluida y una presentación consistente de la información, independientemente del dispositivo que utilicen, mejorando así la usabilidad y satisfacción del usuario.
 
 ## Tecnologias utilizadas: 
 1.  HTML
