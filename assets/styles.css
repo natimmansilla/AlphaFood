@@ -35,6 +35,10 @@ header {
     display: none;
 }
 
+.banner_hero {
+    width: 100%;
+    z-index: -1;
+}
 
 @media screen and (max-width: 725px) {
 
