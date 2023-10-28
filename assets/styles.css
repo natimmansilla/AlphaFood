@@ -42,6 +42,12 @@ header {
 
 /* Para PC */
 /* Sección Menús */
+#menus h2{
+    color: #36A0FF;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
 #menus .contenedor{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -79,23 +85,74 @@ header {
 }
 
 #instrucciones .carta{
-    height: 220px;
-    width: 220px;
-    background-color: lightcyan;
-    border-top-left-radius: 50px 100px;
-    border-radius: 50px 100px;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 16px 14px 20px rgb(113, 112, 112, .5);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#instrucciones .carta::before{
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-image: conic-gradient(#36a1ffa0 20deg, transparent 120deg);
+    animation: rotar 2s linear infinite;
+}
+
+@keyframes rotar{
+    /*Quiero que rotes desde 0 grados */
+    from{
+        transform: rotate(0deg);
+    }
+    /* hasta los -360 grados para que gire en sentido anti horario */
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+#instrucciones .carta::after{
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 190px;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: inset 16px 14px 20px rgb(254, 254, 254);
+    ;
+}
+
+
+
+
 #instrucciones a{
-    text-align: center;
+    color: #36A0FF;
+    z-index: 2;
     padding: 20px;
+    text-align: center;
     text-decoration: none;
+    font-weight: bold;
+    
     
 }
 
 #instrucciones p{
+    color: black;
+    z-index: 2;
+    background-color: transparent;
     padding: 10px 10px 15px 15px;
     text-align: center;
+}
+
+#instrucciones .contenedor h2{
+    color: #36A0FF;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 725px) {
