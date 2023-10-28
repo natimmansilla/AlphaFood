@@ -61,7 +61,42 @@ header {
     
 }
 
+/* Seccion Instrucciones */
 
+#instrucciones .contenedor{
+    background-color: #ECECEC;
+    padding: 10px;
+    
+}
+#instrucciones .titulo{
+    text-align: center;
+}
+
+#instrucciones .subcontenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#instrucciones .carta{
+    height: 220px;
+    width: 220px;
+    background-color: lightcyan;
+    border-top-left-radius: 50px 100px;
+    border-radius: 50px 100px;
+}
+
+#instrucciones a{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+
+#instrucciones p{
+    padding: 10px 10px 15px 15px;
+    text-align: center;
+}
 
 @media screen and (max-width: 725px) {
     /* Mobile y Tablet */
@@ -182,12 +217,14 @@ header {
     color:#fff
 }
 
+
+
+
 /* Sección Preguntas Frecuentes */
 .bigicon {
     font-size: 35px;
     color: #36A0FF;
 }
-
 
 .item {
     text-align: center;
@@ -260,3 +297,4 @@ header {
     -webkit-text-fill-color: transparent;
     font-size: 40px;
 }
+
