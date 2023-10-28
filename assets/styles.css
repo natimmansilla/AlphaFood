@@ -6,6 +6,15 @@
     scroll-behavior: smooth;
 }
 
+.h2_titles {
+    color: #36A0FF;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px;
+
+}
+
 /* HEADER Navbar*/
 header {
     display: flex;
@@ -42,11 +51,6 @@ header {
 
 /* Para PC */
 /* Sección Menús */
-#menus h2{
-    color: #36A0FF;
-    font-weight: bold;
-    padding-top: 20px;
-}
 
 #menus .contenedor{
     display: grid;
@@ -73,9 +77,6 @@ header {
     background-color: #ECECEC;
     padding: 10px;
     
-}
-#instrucciones .titulo{
-    text-align: center;
 }
 
 #instrucciones .subcontenedor{
@@ -150,11 +151,6 @@ header {
     text-align: center;
 }
 
-#instrucciones .contenedor h2{
-    color: #36A0FF;
-    font-weight: bold;
-}
-
 @media screen and (max-width: 725px) {
     /* Mobile y Tablet */
 
@@ -224,10 +220,7 @@ header {
     margin: 20px auto;
 
 }
-#menus h2{
-    text-align: center;
-    margin: 10px;
-}
+
 .carta{
     height: auto;
     width: 100%;
@@ -288,7 +281,7 @@ header {
 }
 
 .question {
-    background-color: #eee;
+    background-color: #CFDBF1;
     color: #444;
     cursor: pointer;
     padding: 18px;
