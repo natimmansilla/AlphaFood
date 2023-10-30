@@ -53,7 +53,7 @@ La sección Preguntas Frecuentes ha sido desarrollada mediante HTML dentro de un
 En cuanto a las interacciones, hay puntualmente dos de ellas, una se trata de un mero cambio de color frente al evento "hover", impelementado mediante css sobre las preguntas "question" en su estado sin desplegar, esto facilita al usuario el identificar que existe una interacción posible al hacer click en dicho contenedor. En cuanto a la segunda interacción, la misma se encuentra implementada mediante un event listener de JavaScript, el cual al recibir un click sobre una "question" en particular, detona el cambio de formato CSS tanto de la misma, ya que se utilizará el CSS "question:after" (el cual simplemente modifica el color y el ícono final) como de su answer subsiguiente, cambiando la propiedad display, del valor none, al valor block, volviendo la respuesta visible para el usuario, en su defecto, la misma función, de estar desplegada la respuesta, vuelve la misma al estado anterior, al clickear sobre la pregunta.
 
 
-### Sección 5:Contacto
+### Sección 5: Contacto
 #### Colaborador: Franco 
 ##### Detalles técnicos:
 El formulario de contacto se ha desarrollado con precisión utilizando el framework Bootstrap, en cumplimiento de los requisitos del TPO. Este formulario ofrece campos bien estructurados para que los usuarios ingresen su Nombre, Apellido, Correo Electrónico, Teléfono y un espacio dedicado para redactar sus mensajes. La funcionalidad del formulario se ha implementado de manera efectiva a través de formsubmit.co, lo que permite a los visitantes completar el formulario y enviar un correo electrónico directamente a la dirección de correo de la página.
