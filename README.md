@@ -9,8 +9,7 @@ Este proyecto se basa en la construcción de una página web resposive para la e
 ## Contenido: 
   0. Navbar : Consta de un navegador de secciones responsive para desktop, tablet y mobile. 
   1. Home: Imagen ilustrativa de un perro saludable por comer dieta barf. Inspira calidad, vitalidad y confianza.
-  2. Menús: Sección que exibirá los diferentes menús disponibles, son 7 en total
-     * Cordero y Pavo en Trozos
+  2. Menús: Sección que exibirá los diferentes menús disponibles, son 6 en total
      * Cordero y Pavo
      * Pavo y Sardinas
      * Pollo
@@ -28,21 +27,23 @@ Este proyecto se basa en la construcción de una página web resposive para la e
 Consta de un navegador de secciones responsive para desktop, tablet y mobile. Tiene sus respectivas anclas a cada una de las secciones, desplieque de forma vertical encolumnado y centrado. Añade un efecto hover en color azul a los textos. Se utilizo Javascript para crear el menú de hamburguesa con una funcion "visible" para el despliegue y quitando ese atributo, el menu se contrae. Se añadio la imagen del logo de la empresa junto con el nav, que se alinearon de forma justify-content: space-between para abarcar la totalidad del espacio.Se utilizo 2 iconos de Bootstrap para hacer el menu, 3 lineas horizontales y un close X. Por último se añadió el cursor: pointer para hacer clickeable el menu.
 
 ### Seccion 1: Home
-Imagen ilustrativa de un perro saludable por comer dieta barf. Inspira calidad, vitalidad y confianza.
+#### Colaborador: Natalia 
+##### Detalles técnicos:
+Imagen ilustrativa acorde al temario, editado con Photoshop para agregarle detalles usando la paleta de colores que rempresenta a la empresa. Ocupa el total de la pantanlla para todos los dispositivos. Adicionalmente se agregó una segunda imagen en alta calidad, promocionando el logo y la frase iconica de AlphaFood.Misma estética que la imagen anterior.
 
 ### Sección 2: Menús
-Sección que exibirá los diferentes menús disponibles, son 7 en total.
-    * Cordero y Pavo en Trozos
-    * Cordero y Pavo
-    * Pavo y Sardinas
-    * Pollo
-    * Pavo
-    * Pollo y Vaca
-    * Conejo y Caballo
-En html se dividió 
+#### Colaborador: Natalia 
+##### Detalles técnicos:
+La sección exibirá los diferentes menús disponibles en 6 cartas distribuidas de manera encolumnada, 3 elementos por fila. Las cartas estan centradas en todo aspecto, conteniendo en su interior una imagen descriptiva, el nombre del menú y un boton para más información.
+Las cartas estan redondeadas en las esquinas, con una pequeña traslacion del eje Y cuando el cursor pasa por encima; tienen una sombra gris que proyecta profundidad a cada carta.
+El boton de + info tiene los bordes redondeado en color azul y se le asigno un efecto de relleno al boton cuando el cursor pasa por encima del mismo.
 
-### Sección 3: Instrucciones
-Descripción ampliada
+### Sección 3: Instrucciones - (Posee una animación)
+#### Colaborador: Natalia 
+##### Detalles técnicos:
+Esta sección contiene 4 cartas informativas sobre el proceso de compra de los menús. Cada carta posee un efecto de animación de bordes con movimiento circular. Este efecto se logro gracias varios estilos de css. En primer lugar se le dio el formato a la figura carta, añadiendole color, sobras, bordes redondeados, una posición relativa y la propiedad de overflow: hidden (para que la carta inconica quede dentro de la carta fondo); luego se utiliza ::before para darle el estilo a la carta que va a estar por encima del fondo original. A esta carta se le coloco un efecto inconico que va desde el color azul a transpartente en 120 grados, posicion absolute y contenido vacio.
+Aqui se crea la animación en la carta before, con nombre "ROTAR", 2 segundos de demora, con efecto linear, y repeticion infinita. Luego use la propiedad keyframe para que rote en posición antihorario a -360 grados.
+Por ultimo hice uso de ::after para modificar la última carta que va a estar por encima de todas, con posicion absolute, bordes redondeados y efecto de sobras al interior de la carta.Tambien se le agregaron estilos a los textos de su interior.
 
 ### Sección 4:  Preguntas Frecuentes
 #### Colaborador: Juan
@@ -76,7 +77,6 @@ Una característica esencial del footer es su total capacidad de respuesta (resp
 7.  FontAwesome y Flaticon [iconos]
 8.  Google Fonts [fuentes]
 9.  Flexbox y Grid [maquetación]
-10. Solicitud a una API: Usada en la sección: 
 
 ## Integrantes:
 * Dominguez, Juan Cruz Elias - dominguez.juanelias@gmail.com
