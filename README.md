@@ -39,11 +39,14 @@ Las cartas estan redondeadas en las esquinas, con una pequeña traslacion del ej
 El boton de + info tiene los bordes redondeado en color azul y se le asigno un efecto de relleno al boton cuando el cursor pasa por encima del mismo.
 
 ### Sección 3: Instrucciones - (Posee una animación)
-#### Colaborador: Natalia 
+#### Colaborador: Natalia y Franco
 ##### Detalles técnicos:
 Esta sección contiene 4 cartas informativas sobre el proceso de compra de los menús. Cada carta posee un efecto de animación de bordes con movimiento circular. Este efecto se logro gracias varios estilos de css. En primer lugar se le dio el formato a la figura carta, añadiendole color, sobras, bordes redondeados, una posición relativa y la propiedad de overflow: hidden (para que la carta inconica quede dentro de la carta fondo); luego se utiliza ::before para darle el estilo a la carta que va a estar por encima del fondo original. A esta carta se le coloco un efecto inconico que va desde el color azul a transpartente en 120 grados, posicion absolute y contenido vacio.
 Aqui se crea la animación en la carta before, con nombre "ROTAR", 2 segundos de demora, con efecto linear, y repeticion infinita. Luego use la propiedad keyframe para que rote en posición antihorario a -360 grados.
 Por ultimo hice uso de ::after para modificar la última carta que va a estar por encima de todas, con posicion absolute, bordes redondeados y efecto de sobras al interior de la carta.Tambien se le agregaron estilos a los textos de su interior.
+
+Descripción de la API:
+
 
 ### Sección 4:  Preguntas Frecuentes
 #### Colaborador: Juan
@@ -77,6 +80,7 @@ Una característica esencial del footer es su total capacidad de respuesta (resp
 7.  FontAwesome y Flaticon [iconos]
 8.  Google Fonts [fuentes]
 9.  Flexbox y Grid [maquetación]
+10. Uso de Api: [The dog Api - Implementada en la sección "Asi Funciona BARF"]
 
 ## Integrantes:
 * Dominguez, Juan Cruz Elias - dominguez.juanelias@gmail.com
