@@ -1,4 +1,4 @@
-![Esta es una imagen de ejemplo](https://github.com/natimmansilla/TPO-AlphaFood/blob/main/image%20add%20README.md/Banner2.png)
+![Esta es una imagen de ejemplo](https://github.com/natimmansilla/AlphaFood/blob/5fe251062410e9d49b53cf9c8b0a0953f752412f/assets/img/Banner2.png)
 
 # Trabajo Práctico - Frontend : HTML - CSS - JAVASCRIPT
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
