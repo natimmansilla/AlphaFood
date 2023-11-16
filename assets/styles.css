@@ -129,9 +129,6 @@ header {
     ;
 }
 
-
-
-
 #instrucciones a{
     color: #36A0FF;
     z-index: 2;
@@ -139,7 +136,6 @@ header {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    
     
 }
 
@@ -150,6 +146,52 @@ header {
     padding: 10px 10px 15px 15px;
     text-align: center;
 }
+
+/*USO DE API */
+
+#instrucciones .contenedor2{
+    background-color: #ECECEC;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#instrucciones .api{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#instrucciones button{
+    padding: 10px;
+    margin-top: 10px;
+    color:#36A0FF;
+    background-color: white;
+    border: 1px solid #36A0FF;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    font-weight: bold;
+
+}
+
+#instrucciones button:hover{
+    background: #36A0FF;
+    color:#fff
+}
+
+
+/* ¿DONDE ESTAMOS? */
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CONTACTO */
+
+
 
 @media screen and (max-width: 725px) {
     /* Mobile y Tablet */
@@ -267,10 +309,8 @@ header {
     color:#fff
 }
 
-
-
-
 /* Sección Preguntas Frecuentes */
+
 .bigicon {
     font-size: 35px;
     color: #36A0FF;
@@ -315,6 +355,7 @@ header {
     overflow: hidden;
     background-color: #f1f1f1;
 }
+
 
 /* FOOTER */
 .pie {
