@@ -17,18 +17,21 @@ function obtenerRazaAleatoria() {
                 throw new Error("La lista de razas está vacía.");
             }
 
-            const razaAleatoria = razas[0];
-            mostrarInformacion(razaAleatoria);
+            const razaAleatoria = razas[Math.floor(Math.random() * razas.length)];
+            return obtenerInformacionCompleta(razaAleatoria);
+        })
+        .then(informacionCompleta => {
+            mostrarInformacion(informacionCompleta);
         })
         .catch(error => {
             console.error("Error al obtener la raza aleatoria:", error);
         });
 }
 
-function mostrarInformacion(raza) {
+function obtenerInformacionCompleta(raza) {
     const urlImagen = `https://api.thedogapi.com/v1/images/search?breed_id=${raza.id}`;
 
-    fetch(urlImagen)
+    return fetch(urlImagen)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Error en la solicitud de la imagen. Código de estado: ${response.status}`);
@@ -42,17 +45,26 @@ function mostrarInformacion(raza) {
 
             const imagenUrl = imagenData[0].url;
 
-            // Mostrar información de la raza en el contenedor
-            const informacionRazaElement = document.getElementById('informacionRaza');
-            informacionRazaElement.innerHTML = `
-                <p>Raza: ${raza.name}</p>
-                <p>Altura: ${raza.height.metric} cm</p>
-                <p>Peso: ${raza.weight.metric} kg</p>
-                <p>Imagen:</p>
-                <img src="${imagenUrl}" alt="Imagen de la raza">
-            `;
+            return {
+                raza: raza,
+                imagenUrl: imagenUrl
+            };
         })
         .catch(error => {
             console.error("Error al obtener la imagen:", error);
         });
+}
+
+function mostrarInformacion(informacion) {
+    const raza = informacion.raza;
+    const imagenUrl = informacion.imagenUrl;
+
+    const informacionRazaElement = document.getElementById('informacionRaza');
+    informacionRazaElement.innerHTML = `
+        <p>Raza: ${raza.name}</p>
+        <p>Altura: ${raza.height ? raza.height.metric || 'N/A' : 'N/A'} cm</p>
+        <p>Peso: ${raza.weight ? raza.weight.metric || 'N/A' : 'N/A'} kg</p>
+        <p>Imagen:</p>
+        <img src="${imagenUrl}" alt="Imagen de la raza">
+    `;
 }
