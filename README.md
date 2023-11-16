@@ -38,7 +38,7 @@ La sección exibirá los diferentes menús disponibles en 6 cartas distribuidas 
 Las cartas estan redondeadas en las esquinas, con una pequeña traslacion del eje Y cuando el cursor pasa por encima; tienen una sombra gris que proyecta profundidad a cada carta.
 El boton de + info tiene los bordes redondeado en color azul y se le asigno un efecto de relleno al boton cuando el cursor pasa por encima del mismo.
 
-### Sección 3: Instrucciones - (Posee una animación)
+### Sección 3: Instrucciones - (Posee una animación y una API)
 #### Colaborador: Natalia y Franco
 ##### Detalles técnicos:
 Esta sección contiene 4 cartas informativas sobre el proceso de compra de los menús. Cada carta posee un efecto de animación de bordes con movimiento circular. Este efecto se logro gracias varios estilos de css. En primer lugar se le dio el formato a la figura carta, añadiendole color, sobras, bordes redondeados, una posición relativa y la propiedad de overflow: hidden (para que la carta inconica quede dentro de la carta fondo); luego se utiliza ::before para darle el estilo a la carta que va a estar por encima del fondo original. A esta carta se le coloco un efecto inconico que va desde el color azul a transpartente en 120 grados, posicion absolute y contenido vacio.
