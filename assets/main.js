@@ -2,9 +2,6 @@ const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
 
-
-/*Menú Hamburguesa*/
-
 abrir.addEventListener("click", () => {
     nav.classList.add("visible");
 })
@@ -12,9 +9,6 @@ abrir.addEventListener("click", () => {
 cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
-
-
-/*Preguntas Frecuentes Colapsable */
 
 var faq = document.getElementsByClassName("question");
 var i;
@@ -30,16 +24,3 @@ for (i = 0; i < faq.length; i++) {
         }
     });
 } 
-
-
-var map;
-
-function getmap(){
-    map.entities.clear
-    map = New.Microsoft.Map(document.getelemntbyid("map"), {
-        credentials:'Amst3HQKXPmTU8-EHBCSri7fBKM8JE5RT3JXWWxtthGlLLct7GGrOQWYOig5VtwP',
-        center: new Microsoft.Maps.Location(-34.61315, -58.37723),
-        mapTypeId: Microsoft.Maps.MapTypeId.aerial,
-        zoom: 10,
-    });
-};

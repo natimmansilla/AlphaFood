@@ -1,4 +1,4 @@
-![Esta es una imagen de ejemplo](https://github.com/natimmansilla/AlphaFood/blob/5fe251062410e9d49b53cf9c8b0a0953f752412f/assets/img/Banner2.png)
+![Esta es una imagen de ejemplo](https://github.com/natimmansilla/TPO-AlphaFood/blob/main/image%20add%20README.md/Banner2.png)
 
 # Trabajo Práctico - Frontend : HTML - CSS - JAVASCRIPT
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
@@ -50,7 +50,7 @@ Por ultimo hice uso de ::after para modificar la última carta que va a estar po
 ##### Detalles técnicos:
 La sección Preguntas Frecuentes ha sido desarrollada mediante HTML dentro de un contenedor padre section denominado "contenedor-preguntas" . Cada una de las preguntas, se encuentra compuesta por la pregunta propiamente dicha, identificada mediante la clase "question", seguido inmediatamente por un párrafo identificado mediante la clase "answer" el cual contiene la respuesta propiamente dicha, pero en principio se encuentra oculto debido a la propiedad "display:none" en el código css de su clase.
 
-En cuanto a las interacciones, hay puntualmente dos de ellas, una se trata de un mero cambio de color frente al evento "hover", implementado mediante css sobre las preguntas "question" en su estado sin desplegar, esto facilita al usuario el identificar que existe una interacción posible al hacer click en dicho contenedor. En cuanto a la segunda interacción, la misma se encuentra implementada mediante un event listener de JavaScript, el cual al recibir un click sobre una "question" en particular, detona el cambio de formato CSS tanto de la misma, ya que se utilizará el CSS "question:after" (el cual simplemente modifica el color y el ícono final) como de su answer subsiguiente, cambiando la propiedad display, del valor none, al valor block, volviendo la respuesta visible para el usuario, en su defecto, la misma función, de estar desplegada la respuesta, vuelve la misma al estado anterior, al clickear sobre la pregunta.
+En cuanto a las interacciones, hay puntualmente dos de ellas, una se trata de un mero cambio de color frente al evento "hover", impelementado mediante css sobre las preguntas "question" en su estado sin desplegar, esto facilita al usuario el identificar que existe una interacción posible al hacer click en dicho contenedor. En cuanto a la segunda interacción, la misma se encuentra implementada mediante un event listener de JavaScript, el cual al recibir un click sobre una "question" en particular, detona el cambio de formato CSS tanto de la misma, ya que se utilizará el CSS "question:after" (el cual simplemente modifica el color y el ícono final) como de su answer subsiguiente, cambiando la propiedad display, del valor none, al valor block, volviendo la respuesta visible para el usuario, en su defecto, la misma función, de estar desplegada la respuesta, vuelve la misma al estado anterior, al clickear sobre la pregunta.
 
 
 ### Sección 5: Contacto
