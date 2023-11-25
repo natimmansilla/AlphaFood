@@ -45,7 +45,7 @@ Esta sección contiene 4 cartas informativas sobre el proceso de compra de los m
 Aqui se crea la animación en la carta before, con nombre "ROTAR", 2 segundos de demora, con efecto linear, y repeticion infinita. Luego use la propiedad keyframe para que rote en posición antihorario a -360 grados.
 Por ultimo hice uso de ::after para modificar la última carta que va a estar por encima de todas, con posicion absolute, bordes redondeados y efecto de sobras al interior de la carta.Tambien se le agregaron estilos a los textos de su interior.
 
-
+Descripcion de la API: 
 
 ### Sección 4:  Preguntas Frecuentes
 #### Colaborador: Juan
