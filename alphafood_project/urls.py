@@ -23,5 +23,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", IndexPage.as_view(), name="index"),
     path("mascotas/", include("mascotas_app.urls", namespace="mascotas_app")),
-    #path("", include("mascotas_app.urls")),
+   
 ]
