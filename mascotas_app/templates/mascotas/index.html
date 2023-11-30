@@ -3,7 +3,14 @@
 {% block titulo %} Lista de mascotas {% endblock %}
 
 {% block contenido %} 
+<h1>NUESTRAS MASCOTAS</h1>
+<a href="{% url 'mascotas_app:registrar' %}" id="registrarMascota">Registra tu mascota</a>
+<br >
 Agregar una tabla hecha con html para que se vean los registros de las mascotas. Con las siguientes columnas id nombre, edad, raza, peso, enfermedades, mail, acciones Ver si se puede subir una imagen
+<br>
+<a href="{% url 'mascotas_app:editar' %}" id="editarMascota">Editar</a>
 
+<br>
+<a href="#" id="registrarMascota">Eliminar</a>
 
 {% endblock %}

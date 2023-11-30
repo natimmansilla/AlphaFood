@@ -9,3 +9,9 @@ def uno(request):
 
 def mascotas(request):
     return render (request, 'mascotas/index.html')
+
+def registrar(request):
+    return render(request, 'mascotas/registrar.html')
+
+def editar(request):
+    return render(request, 'mascotas/editar.html')
