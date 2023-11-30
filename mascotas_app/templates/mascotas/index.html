@@ -4,13 +4,40 @@
 
 {% block contenido %} 
 <h1>NUESTRAS MASCOTAS</h1>
-<a href="{% url 'mascotas_app:registrar' %}" id="registrarMascota">Registra tu mascota</a>
+<a href="{% url 'mascotas_app:registrar' %}" id="registrarMascota">Registra a tu mascota</a>
 <br >
-Agregar una tabla hecha con html para que se vean los registros de las mascotas. Con las siguientes columnas id nombre, edad, raza, peso, enfermedades, mail, acciones Ver si se puede subir una imagen
-<br>
-<a href="{% url 'mascotas_app:editar' %}" id="editarMascota">Editar</a>
+<table border="3">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Peso</th>
+            <th>Raza</th>
+            <th>Email</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Aquí puedes iterar sobre tus objetos Mascota y mostrarlos en la tabla -->
+        {% for mascota in mascotas %}
+            <tr>
+                <td>{{ mascota.nombre }}</td>
+                <td>{{ mascota.edad }}</td>
+                <td>{{ mascota.peso }}</td>
+                <td>{{ mascota.raza }}</td>
+                <td>{{ mascota.email }}</td>
+                <td>
+                    <a href="{% url 'mascotas_app:editar' mascota.id %}" id="editarMascota{{ mascota.id }}">Editar</a>
+                    <a href="#'''{% url 'mascotas_app:eliminar' mascota.id %}'''id="eliminarMascota{{ mascota.id }}">Eliminar</a>
+                </td>
+        {% endfor %}
+    </tbody>
+</table>
 
-<br>
-<a href="#" id="registrarMascota">Eliminar</a>
+</body>
+</html>
+
+
+
 
 {% endblock %}
