@@ -1,12 +1,15 @@
 {% extends "base.html" %}
 
-{% block titulo %} Lista de mascotas {% endblock %}
+{% block titulo %} AlphaFood | Lista de Mascotas {% endblock %}
 
 {% block contenido %} 
-<h1>NUESTRAS MASCOTAS</h1>
-<a href="{% url 'mascotas_app:registrar' %}" id="registrarMascota">Registra a tu mascota</a>
+<h2>NUESTRAS MASCOTAS</h2>
+<div class="contenedor_lista_mascotas">
+    <a class="boton_ListaMascotas"href="{% url 'mascotas_app:registrar' %}" id="registrarMascota">Registra a tu mascota</a>
+</div>
+
 <br >
-<table border="3">
+<table>
     <thead>
         <tr>
             <th>Nombre</th>
@@ -31,13 +34,11 @@
                     <a href="#'''{% url 'mascotas_app:eliminar' mascota.id %}'''id="eliminarMascota{{ mascota.id }}">Eliminar</a>
                 </td>
         {% endfor %}
+
     </tbody>
 </table>
 
 </body>
 </html>
-
-
-
 
 {% endblock %}

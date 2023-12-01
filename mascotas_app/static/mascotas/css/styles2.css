@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    color: #36A0FF;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+h3{
+    color: #58ff36d5;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* PC */
+/* HEADER Navbar*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #ececec;
+}
+
+.logo {
+    max-width: 10rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+/* Boton lista de mascotas */
+.boton_ListaMascotas{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color:#36A0FF;
+    border: 1px solid #36A0FF;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.boton_ListaMascotas:hover{
+    background: #36A0FF;
+    color:#fff
+}
+
+.contenedor_lista_mascotas{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+/* Tabla de listado de mascotas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    table-layout: fixed;
+}
+
+thead{
+    background: rgba(73, 107, 218, 0.658);
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    border-bottom: solid 1px rgba(15, 133, 211, 0.534)
+}
+
+tbody tr:hover {
+    background: rgba(0, 0, 0, 0.137);
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: #1c1c1c1e;
+}
+
+.pie {
+    text-align: center;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.iconos {
+    font-size: 40px;
+}
+
+.fa-whatsapp {
+    color: rgb(3, 233, 3);
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+
+
+/* MOBILE AND TABLET */
+@media screen and (max-width: 725px) {
+    
+    /* HEADER : Navbar */
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    
+    .abrir-menu {
+        color: #1c1c1c;
+    }
+    
+    .cerrar-menu {
+        color: #ececec;
+    }
+    
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        z-index: 1;
+    }
+    
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+    
+    .nav-list li a {
+        color: #ecececec;
+    }
+}
+
