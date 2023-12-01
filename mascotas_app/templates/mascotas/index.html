@@ -30,11 +30,16 @@
                 <td>{{ mascota.raza }}</td>
                 <td>{{ mascota.email }}</td>
                 <td>
-                    <a href="{% url 'mascotas_app:editar' mascota.id %}" id="editarMascota{{ mascota.id }}">Editar</a>
-                    <a href="#'''{% url 'mascotas_app:eliminar' mascota.id %}'''id="eliminarMascota{{ mascota.id }}">Eliminar</a>
+                    <a href="{% url 'mascotas_app:editar' %}" id="editarMascota{{ mascota.id }}">Editar</a>
+                    <a href="#"id="eliminarMascota{{ mascota.id }}">Eliminar</a>
+                   
                 </td>
         {% endfor %}
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 5288ae135a318a665ea54102486fe2e019520b69
     </tbody>
 </table>
 
