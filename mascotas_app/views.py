@@ -24,6 +24,9 @@ def registrar(request):
 def editar(request, id):
     mascota=Mascota.objects.get(id=id)
     formulario=MascotaForm(request.POST or None, request.FILES or None, instance=mascota)
+    if formulario.is_valid() and request.POST:
+        formulario.save()
+        return redirect ('mascotas_app:mascotas')
     return render(request, 'mascotas/editar.html', {'formulario': formulario})
 
 def eliminar(request, id):
