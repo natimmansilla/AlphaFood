@@ -8,4 +8,6 @@ class Mascota(models.Model):
     raza = models.CharField(max_length=100, verbose_name="Raza", null=False, blank=False)
     email = models.EmailField(verbose_name="Email", null=False, blank=False)
 
-   
+def __str__(self):
+    fila = 'Nombre:'+ self.nombre + - + self.raza + 'de '+ self.edad +'años'
+    return fila

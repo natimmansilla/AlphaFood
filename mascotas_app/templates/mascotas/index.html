@@ -1,14 +1,19 @@
 {% extends "base.html" %}
 
-{% block titulo %} Lista de mascotas {% endblock %}
+{% block titulo %} AlphaFood | Lista de Mascotas {% endblock %}
 
-{% block contenido %} 
-<h1>NUESTRAS MASCOTAS</h1>
-<a href="{% url 'mascotas_app:registrar' %}" id="registrarMascota">Registra a tu mascota</a>
-<br >
-<table border="3">
+{% block contenido %}
+<h2>NUESTRAS MASCOTAS</h2>
+<div class="contenedor_lista_mascotas">
+    <a class="boton_ListaMascotas" href="{% url 'mascotas_app:registrar' %}" id="registrarMascota">Registra a tu
+        mascota</a>
+</div>
+
+<br>
+<table>
     <thead>
         <tr>
+            <th>Id</th>
             <th>Nombre</th>
             <th>Edad</th>
             <th>Peso</th>
@@ -20,24 +25,24 @@
     <tbody>
         <!-- Aquí puedes iterar sobre tus objetos Mascota y mostrarlos en la tabla -->
         {% for mascota in mascotas %}
-            <tr>
-                <td>{{ mascota.nombre }}</td>
-                <td>{{ mascota.edad }}</td>
-                <td>{{ mascota.peso }}</td>
-                <td>{{ mascota.raza }}</td>
-                <td>{{ mascota.email }}</td>
-                <td>
-                    <a href="{% url 'mascotas_app:editar' mascota.id %}" id="editarMascota{{ mascota.id }}">Editar</a>
-                    <a href="#'''{% url 'mascotas_app:eliminar' mascota.id %}'''id="eliminarMascota{{ mascota.id }}">Eliminar</a>
-                </td>
-        {% endfor %}
+        <tr>
+            <td>{{ mascota.id }}</td>
+            <td>{{ mascota.nombre }}</td>
+            <td>{{ mascota.edad }}</td>
+            <td>{{ mascota.peso }}</td>
+            <td>{{ mascota.raza }}</td>
+            <td>{{ mascota.email }}</td>
+            <td>
+                <a href="{% url 'mascotas_app:editar' id=mascota.id %}" id="editarMascota{{ mascota.id }}">Editar</a>
+                <a href="{% url 'mascotas_app:eliminar' mascota.id %}" id="eliminarMascota{{ mascota.id }}">Eliminar</a>
+
+            </td>
+            {% endfor %}
     </tbody>
 </table>
 
 </body>
+
 </html>
-
-
-
 
 {% endblock %}

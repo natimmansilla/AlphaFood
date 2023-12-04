@@ -1,18 +1,21 @@
-<form action="/procesar" method="post" enctype="multipart/form-data">
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required>
+<link rel="stylesheet" href="../../static/mascotas/css/form.css">
 
-    <label for="edad">Edad:</label>
-    <input type="number" id="edad" name="edad" required>
 
-    <label for="peso">Peso:</label>
-    <input type="number" id="peso" name="peso" required>
-
-    <label for="raza">Raza:</label>
-    <input type="text" id="raza" name="raza" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <button type="submit">Enviar</button>
+<form  method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% for campo in formulario %}
+    <div>  
+        <label for="">{{campo.label}}:</label>
+        <input 
+        type="{{campo.field.widget.input_type}}" 
+        id= ""
+        name="{{campo.name}}"
+        placeholder="{{campo.label}}" 
+        value="{{ campo.value|default_if_none:'' }}"
+        required>
+            
+    </div> 
+    {% endfor %}
+    <input name="" id="" type="submit" value = "Enviar">
+    <a name="" id="" class="button" href="{% url 'mascotas_app:mascotas' %}">Cancelar</a>
 </form>
