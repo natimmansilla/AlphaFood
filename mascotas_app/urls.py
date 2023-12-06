@@ -1,5 +1,7 @@
 from django.urls import path
 from . import views
+from .router import router
+
 
 app_name = "mascotas_app"
 

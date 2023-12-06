@@ -28,8 +28,8 @@ input {
 
 input[type="submit"],
 a.button {
-    background-color: #4caf50;
-    color: #fff;
+    color:#fff;
+    background-color: #36A0FF;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -41,5 +41,9 @@ a.button {
 
 input[type="submit"]:hover,
 a.button:hover {
-    background-color: #45a049;
+    background: #fff;
+    color:#36A0FF;
+    border: 1px solid #36A0FF;
+    border-radius: 4px;
+    transition: all 400ms ease;
 }

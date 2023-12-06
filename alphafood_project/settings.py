@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 CUSTOM_APPS = ["mascotas_app"
 
 ]
+EXTERNAL = ["rest_framework"]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
     #"mascotas_app",
 ]
 INSTALLED_APPS += CUSTOM_APPS
+INSTALLED_APPS += EXTERNAL
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
