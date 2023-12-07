@@ -43,7 +43,5 @@ input[type="submit"]:hover,
 a.button:hover {
     background: #fff;
     color:#36A0FF;
-    border: 1px solid #36A0FF;
-    border-radius: 4px;
-    transition: all 400ms ease;
+    
 }

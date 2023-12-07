@@ -14,3 +14,4 @@ urlpatterns= [
     path('mascotas/editar/<int:id>/', views.editar, name='editar'),
     path('eliminar/<int:id>',views.eliminar, name = 'eliminar') 
 ]
+urlpatterns += router.urls
