@@ -54,7 +54,7 @@ Dog API Explorer es una pequeña aplicación web que  permite explorar informaci
 ### mascotas_app
 #### Colaborador: Natalia, Franco y Paola
 ##### Detalles técnicos:
-La funcionalidad principal de mascotas-app ofrece una experiencia intuitiva y amigable para el  usuario. A través de una interfaz cuidadosamente diseñada, puede realizar acciones como la creación de nuevos registros, la visualización detallada de información existente, la actualización de datos y la eliminación de registros obsoletos. 
+La funcionalidad principal de mascotas-app ofrece una experiencia intuitiva y amigable para el  usuario. A través de una interfaz cuidadosamente diseñada, puede realizar acciones la creación de nuevos registros, la visualización detallada de información existente, la actualización de datos y la eliminación de registros obsoletos. 
 
 Se fundamenta en el modelo MTV de Django,  implementa el protocolo HTTP, ofreciendo soporte completo para los métodos GET, POST, PUT y DELETE. Proporciona un sistema integral de CRUD (Create, Read, Update, Delete), permitiendo a los usuarios realizar operaciones con sus datos de manera eficiente. Al interactuar con una base de datos integrada, tienen la capacidad de registrar información relevante sobre sus mascotas y garantizar la persistencia de estos registros.
 
